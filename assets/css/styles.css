@@ -4,12 +4,12 @@ body {
 }
 
 .hero {
-  background-image: url('assets/images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   /* Replace with your own image */
   background-size: cover;
   background-position: center;
   height: 100vh;
-  color: #fff;
+  /* color: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,6 +120,10 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+body {
+  padding-bottom: 20px;
 }
 
 /* Custom media queries for responsiveness */
