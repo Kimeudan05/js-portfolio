@@ -4,16 +4,16 @@ body {
 }
 
 .hero {
-  background-image: url('../images/bg.jpg');
-  /* Replace with your own image */
-  background-size: cover;
+  background-image: url('../images/back.jpg');
+  background-size: 100%;
   background-position: center;
   height: 100vh;
-  /* color: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .hero h1 {
